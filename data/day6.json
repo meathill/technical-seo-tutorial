@@ -1,0 +1,49 @@
+{
+  "day": 6,
+  "title": "Technical SEO 要做多久？",
+  "slug": "day6-technical-seo-timeline",
+  "description": "了解 Technical SEO 的时间周期、预期效果和合作模式，避免短视行为，获取长期稳定的流量增长。",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Technical SEO 要做多久？",
+      "subtitle": "耐心与长期主义的价值"
+    },
+    {
+      "type": "content",
+      "title": "Technical SEO 不会立刻生效",
+      "content": "Technical SEO 会让搜索引擎更好的抓取和索引你的网站，但这些过程有赖搜索引擎来完成，我们无法主动加速这一过程，所以我们必须有耐心，等待每周一两次的更新。"
+    },
+    {
+      "type": "content",
+      "title": "Technical SEO 可能不会带来立竿见影的流量",
+      "content": "Technical SEO 并不直接关注关键词，所以刚刚做完优化的网站可能不会立刻流量飞涨。甚至在一段时间里，都看不出什么变化。但这绝不是是努力都白费了，在未来很长一段时间里，网站都会得到助益。"
+    },
+    {
+      "type": "content",
+      "title": "Technical SEO 的流程",
+      "content": "1. 分析当前的问题\n2. 提出修改方案\n3. 实施修改方案\n4. 验收修改结果\n5. 继续分析，直到所有问题均被解决"
+    },
+    {
+      "type": "content",
+      "title": "Technical SEO 的收效",
+      "content": "一般来说，从第一次修改之后，网站就会享受到 Technical SEO 带来的好处。这些好处会积累，与日俱增，绝对不会浪费。\n随着用户停留时间增长、访问页面数增多、跳出率减少，在搜索导入量提高之前，你就会感觉到种种好处。"
+    },
+    {
+      "type": "content",
+      "title": "Technical SEO 的合作模式",
+      "content": "所以 Technical SEO 和合作也不会是一蹴而就的，无论是我，还是我的同行，只要是真正像帮助你和你的网站，我们都会投入至少一个月的时间，帮助你的网站取得真正的进步。"
+    },
+    {
+      "type": "content",
+      "title": "警惕流量贩子",
+      "content": "不得不说，有些友商并不擅长 SEO，也不打算给你做 SEO。他们只是在你们付钱的阶段，从其它地方采购流量，帮你们把流量推起来。当到你们的费用用完，他就不管你们，你们的流量也就没了。只有我们真正的从 Technical SEO 做起，才有长期稳定的流量。"
+    },
+    {
+      "type": "end",
+      "name": "Meathill",
+      "title": "Full stack SEO",
+      "message": "跟时间交朋友，追求长期价值，获取真正的流量。"
+    }
+  ]
+}

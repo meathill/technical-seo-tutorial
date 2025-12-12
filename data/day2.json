@@ -1,0 +1,39 @@
+{
+  "day": 2,
+  "title": "网站速度有多重要？",
+  "slug": "day2-website-speed",
+  "description": "网站加载速度直接影响用户体验和搜索引擎排名。了解如何检测和优化网站速度，提升流量和转化率。",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "网站速度有多重要？",
+      "subtitle": "提升排名与用户体验的关键因素"
+    },
+    {
+      "type": "content",
+      "title": "加载速度直接影响流量",
+      "content": "数据显示，网站加载时间超过 3 秒，用户流失率将增加 32%。搜索引擎同样重视速度，Google 将其作为排名的重要依据。优化速度是提升流量的关键。"
+    },
+    {
+      "type": "content",
+      "title": "速度优化提升排名与体验",
+      "content": "页面加载速度不仅关乎用户体验，还直接影响 SEO 表现。Google 尤其关注移动端速度，快速网站更容易获得排名优势，实现用户与搜索引擎的双赢。"
+    },
+    {
+      "type": "content",
+      "title": "实用技巧加速网站",
+      "content": "提升网站速度可通过以下方法实现：采用 WebP 格式压缩图片、使用 CDN 加速内容分发、减少重定向。这些技术简单高效，显著改善性能。更多优化技术可通过 B 站搜索 meathill 获取专业指导。"
+    },
+    {
+      "type": "content",
+      "title": "专业工具检测与改进",
+      "content": "使用 Google PageSpeed Insights 或 GTmetrix，可精准检测网站速度并提供优化建议。这些工具免费且易用，适合快速评估与改进。"
+    },
+    {
+      "type": "end",
+      "name": "Meathill",
+      "title": "Full stack SEO",
+      "message": "你的网站评分多少？取用 PageSpeed 测一下，在评论区分享吧！优化经验更欢迎！"
+    }
+  ]
+}

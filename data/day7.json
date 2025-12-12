@@ -1,0 +1,24 @@
+{
+  "day": 7,
+  "title": "实战第一步：Google Search Console",
+  "slug": "day7-google-search-console",
+  "description": "了解如何使用 Google Search Console 监控和优化网站在 Google 搜索中的表现，掌握实用技巧提升网站可见性。",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "实战第一步：Google Search Console",
+      "subtitle": "即将推出"
+    },
+    {
+      "type": "content",
+      "title": "敬请期待",
+      "content": "本系列的第七天内容即将推出，我们将深入探讨 Google Search Console 的使用方法和实战技巧。\n\n通过 Google Search Console，您可以监控网站在 Google 搜索中的表现，发现并解决问题，提升网站在搜索结果中的可见性。"
+    },
+    {
+      "type": "end",
+      "name": "Meathill",
+      "title": "Full stack SEO",
+      "message": "敬请期待更多实用的 SEO 技巧和工具使用指南！"
+    }
+  ]
+}

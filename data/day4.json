@@ -1,0 +1,84 @@
+{
+  "day": 4,
+  "title": "Web Vitals 及 CrUX 的重要性",
+  "slug": "day4-web-vitals",
+  "description": "了解 Google 的 Web Vitals 指标如何衡量网站性能，以及 Chrome 用户体验报告(CrUX)对 SEO 的影响。掌握优化技巧提升用户体验和搜索排名。",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Web Vitals 及 CrUX 的重要性",
+      "subtitle": "提升用户体验与搜索排名的关键指标"
+    },
+    {
+      "type": "content",
+      "title": "Web Vitals 是什么",
+      "content": "Web Vitals 是 Google 设计的一组指标，旨在衡量网站在加载性能、交互性和视觉稳定性方面的表现。主要包括 LCP，INP，CLS。"
+    },
+    {
+      "type": "content",
+      "title": "为什么它对 SEO 和用户体验至关重要",
+      "content": "Google 的目标是找到用户喜欢的网站。而他们也认为，在这些指标上表现的好，用户就喜欢。所以优化这些指标，可以让用户获得更流畅的体验，同时提升网站的搜索引擎排名，减少用户流失。核心目标是通过数据驱动的方式，让网站更贴近用户需求。"
+    },
+    {
+      "type": "content",
+      "title": "Web Vitals 核心指标：LCP",
+      "content": "最大内容绘制(LCP)衡量加载性能。为了提供良好的用户体验，应在网页首次开始加载的 2.5 秒内完成 LCP。请确保你最大的内容区块尽快加载并渲染。"
+    },
+    {
+      "type": "content",
+      "title": "Web Vitals 核心指标：INP",
+      "content": "输入延迟(INP)衡量互动性。为了提供良好的用户体验，网页的 INP 应不超过 200 毫秒。页面中的程序执行不应该太久，让用户随时可以操作。"
+    },
+    {
+      "type": "content",
+      "title": "Web Vitals 核心指标：CLS",
+      "content": "累计布局偏移(CLS)衡量视觉稳定性。为了提供良好的用户体验，网页的 CLS 应保持在 0.1 或更低。不要让页面抖动，布局变化只应该在用户操作时发生。"
+    },
+    {
+      "type": "content",
+      "title": "Web Vital 数据来源",
+      "content": "Web Vitals 的数据来源有两个层面，缺一不可：Google 爬虫模拟测试和真实用户体验数据(CrUX)。"
+    },
+    {
+      "type": "content",
+      "title": "Google 爬虫模拟测试",
+      "content": "通过工具如 Lighthouse，模拟用户访问，生成性能报告。这种方式适合快速检测问题和开发阶段调优，有用但不够全面。"
+    },
+    {
+      "type": "content",
+      "title": "Chrome 用户体验报告（CrUX）",
+      "content": "CrUX 收集了真实用户在 Chrome 浏览器中的匿名数据，覆盖不同设备（如手机、桌面）和网络条件（如 4G、WiFi）。它反映了用户在现实场景中的实际体验，是优化 Web Vitals 的重要参考。"
+    },
+    {
+      "type": "content",
+      "title": "实战经验分享",
+      "content": "CrUX 非常重要，非常非常重要。会极大影响网站在搜索中的排名，所以一定要注意。最好配合 GA 分析了解你的用户，做出相应的优化。"
+    },
+    {
+      "type": "content",
+      "title": "优化 LCP 的方法",
+      "content": "加快服务器响应时间（使用 CDN，使用缓存，使用 SSR，优化后端响应速度）。优化图片和字体加载（延迟加载非关键资源、使用现代格式如 WebP）。减少阻塞渲染的代码（如过大的 CSS 或 JS）。找到你真正的 Largest Content，不要优化错误的元素。"
+    },
+    {
+      "type": "content",
+      "title": "优化 INP 的方法",
+      "content": "精简 JavaScript，减少执行时间。优化第三方脚本，按需加载，分模块加载。把大运算量的功能放在 worker。减轻 DOM 结构，能省则省。"
+    },
+    {
+      "type": "content",
+      "title": "优化 CLS 的方法",
+      "content": "预设图片和视频尺寸，可以在服务器端计算后带入 html。避免动态内容插入，比如广告，可能是重灾区。在用户操作的一小段时间窗口，可以改变 DOM。"
+    },
+    {
+      "type": "content",
+      "title": "实用工具推荐",
+      "content": "PageSpeed Insights、Lighthouse、CrUX 报告都是优化 Web Vitals 的实用工具，可以帮助你分析和改进网站性能。"
+    },
+    {
+      "type": "end",
+      "name": "Meathill",
+      "title": "Full stack SEO",
+      "message": "Web Vitals 是我钻研最深的部份，也是我纠正自己误解最深的部份。欢迎挑战！"
+    }
+  ]
+}

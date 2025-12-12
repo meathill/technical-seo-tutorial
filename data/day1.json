@@ -1,0 +1,44 @@
+{
+  "day": 1,
+  "title": "Technical SEO是什么？",
+  "slug": "day1-what-is-technical-seo",
+  "description": "Technical SEO 是网站优化的\"骨骼\"，确保搜索引擎能轻松抓取、理解和索引你的内容。了解为什么它对网站排名至关重要。",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Technical SEO是什么？",
+      "subtitle": "网站优化的\"骨骼\""
+    },
+    {
+      "type": "content",
+      "title": "Technical SEO 的定义",
+      "content": "Technical SEO 是网站优化的\"骨骼\"。它不像内容 SEO 那样盯着关键词，而是聚焦网站的技术架构，确保搜索引擎能轻松抓取、理解和索引你的内容。网站速度、移动适配、结构化数据这些技术细节，都会直接影响你的排名。"
+    },
+    {
+      "type": "content",
+      "title": "为什么它重要？",
+      "content": "没有技术 SEO，网站就像一栋地基不稳的房子，哪怕内容再精彩，也很难被用户发现。Google 偏爱技术优化到位的网站，做好它，排名和流量自然就上去了。"
+    },
+    {
+      "type": "content",
+      "title": "谁需要关心 Technical SEO？",
+      "content": "不只是开发者，网站所有者、SEOer，甚至技术小白都该懂点基础知识。想让网站在竞争中脱颖而出？技术优化绝对是你的秘密武器。"
+    },
+    {
+      "type": "content",
+      "title": "从哪里开始？",
+      "content": "先从基础入手：检查网站速度、确保移动端适配、升级到 HTTPS。这些是 Technical SEO 的\"入门三件套\"，简单又实用。"
+    },
+    {
+      "type": "content",
+      "title": "小贴士",
+      "content": "推荐用 Google PageSpeed Insights 测测网站速度，免费又靠谱。别怕技术名词，Technical SEO 其实没你想的那么复杂！"
+    },
+    {
+      "type": "end",
+      "name": "Meathill",
+      "title": "Full stack SEO",
+      "message": "你知道 Technical SEO 是什么吗？快来分享你的理解吧！"
+    }
+  ]
+}

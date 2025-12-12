@@ -1,0 +1,44 @@
+{
+  "day": 3,
+  "title": "移动端优化：SEO的重要一环",
+  "slug": "day3-mobile-optimization",
+  "description": "随着移动设备使用率的提高，移动端优化已成为SEO策略的核心。了解如何提升移动端体验，满足Google移动优先索引的要求。",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "移动端优化：SEO的重要一环",
+      "subtitle": "提升排���与用户体验的必要策略"
+    },
+    {
+      "type": "content",
+      "title": "Google 移动优先索引的现实",
+      "content": "Google 已将移动版网站作为排名的重要依据。如果移动端未优化，可能直接影响网站在搜索引擎中的表现，流量获取将面临挑战。"
+    },
+    {
+      "type": "content",
+      "title": "用户体验与流量的关系",
+      "content": "当前，超过一半的网络流量来自移动设备。若页面加载缓慢或布局不适配，用户可能迅速流失。优化移动端是提升用户留存的关键步骤。"
+    },
+    {
+      "type": "content",
+      "title": "实用优化建议",
+      "content": "采用响应式设计是基础，同时通过压缩图片和精简 JavaScript 等方式提升加载速度，可显著改善移动端体验。想了解更多技巧，欢迎关注私聊。"
+    },
+    {
+      "type": "content",
+      "title": "友情提示",
+      "content": "即使您的目标群体主要使用桌面端，移动端表现不佳仍可能拖累整体排名。Google 的评估标准适用于所有网站，忽视移动端优化存在风险。"
+    },
+    {
+      "type": "content",
+      "title": "免费工具助力优化",
+      "content": "使用 Google Mobile-Friendly Test 检查移动适配性，或借助 PageSpeed Insights 分析加载性能。这些工具操作简单，能快速定位问题并提供改进建议。"
+    },
+    {
+      "type": "end",
+      "name": "Meathill",
+      "title": "Full stack SEO",
+      "message": "你的网站移动端友好吗？留个链接给大家看看，欢迎互相交流优化经验！"
+    }
+  ]
+}
