@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { dayInfo } from "@/lib/slide-utils"
+import Link from 'next/link';
+import { dayInfo } from '@/lib/slide-utils';
 
 export default function Home() {
   // Use a simple static rendering approach without data fetching
@@ -14,8 +14,7 @@ export default function Home() {
             <div key={day.day}>
               <Link
                 href={`/${day.slug}`}
-                className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors w-full text-left"
-              >
+                className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors w-full text-left">
                 <span className="inline-block w-8 h-8 bg-white/10 rounded-full text-center mr-3 leading-8">
                   {day.day}
                 </span>
@@ -26,5 +25,5 @@ export default function Home() {
         </div>
       </div>
     </div>
-  )
+  );
 }

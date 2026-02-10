@@ -1,11 +1,11 @@
-"use client"
+'use client';
 
-import Image from "next/image"
-import { motion } from "framer-motion"
+import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 interface CoverSlideProps {
-  title: string
-  subtitle: string
+  title: string;
+  subtitle: string;
 }
 
 export default function CoverSlide({ title, subtitle }: CoverSlideProps) {
@@ -14,8 +14,7 @@ export default function CoverSlide({ title, subtitle }: CoverSlideProps) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="w-full max-w-md px-6 py-12 text-center"
-    >
+      className="w-full max-w-md px-6 py-12 text-center">
       <div className="mb-8">
         <div className="inline-block mb-6">
           <Image
@@ -44,8 +43,7 @@ export default function CoverSlide({ title, subtitle }: CoverSlideProps) {
             strokeLinecap="round"
             strokeLinejoin="round"
             className="text-white/50"
-            aria-hidden="true"
-          >
+            aria-hidden="true">
             <path d="M12 5v14" />
             <path d="m19 12-7 7-7-7" />
           </svg>
@@ -53,5 +51,5 @@ export default function CoverSlide({ title, subtitle }: CoverSlideProps) {
         </div>
       </div>
     </motion.div>
-  )
+  );
 }

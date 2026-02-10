@@ -1,1 +1,5 @@
 node_modules
+.dev*
+.open-next
+.next
+.DS_Store
