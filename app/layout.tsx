@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     'Technical SEO 是网站优化的"骨骼"，确保搜索引擎能轻松抓取、理解和索引你的内容。了解为什么它对网站排名至关重要。',
   keywords: 'Technical SEO, 技术SEO, 网站优化, 搜索引擎优化, SEO基础, 网站排名',
-  authors: [{ name: 'Meathill', url: 'https://seo.meathill.com' }],
+  authors: [{ name: 'Meathill', url: process.env.NEXT_PUBLIC_SITE_URL }],
   openGraph: {
     title: 'Technical SEO是什么？ | Technical SEO 分享',
     description: 'Technical SEO 是网站优化的"骨骼"，确保搜索引擎能轻松抓取、理解和索引你的内容。',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     locale: 'zh_CN',
     images: [
       {
-        url: 'https://seo.meathill.com/api/og?title=Technical SEO 分享&subtitle=by%20Meathill',
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/api/og?title=Technical SEO 分享&subtitle=by%20Meathill`,
         width: 1200,
         height: 630,
         alt: 'SEO系列分享 by Meathill',
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Technical SEO是什么？ | Technical SEO 分享',
     description: 'Technical SEO 是网站优化的"骨骼"，确保搜索引擎能轻松抓取、理解和索引你的内容。',
-    images: ['https://seo.meathill.com/api/og?title=Technical SEO 分享&subtitle=by%20Meathill'],
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL}/api/og?title=Technical SEO 分享&subtitle=by%20Meathill`],
   },
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: 'https://seo.meathill.com/seo-series/technical-seo',
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/seo-series/technical-seo`,
   },
   generator: 'v0.app',
 };
@@ -73,28 +73,28 @@ export default function RootLayout({
               author: {
                 '@type': 'Person',
                 name: 'Meathill',
-                url: 'https://seo.meathill.com',
+                url: process.env.NEXT_PUBLIC_SITE_URL,
               },
               publisher: {
                 '@type': 'Organization',
                 name: 'Meathill SEO',
                 logo: {
                   '@type': 'ImageObject',
-                  url: 'https://seo.meathill.com/logo.png',
+                  url: `${process.env.NEXT_PUBLIC_SITE_URL}/logo.png`,
                 },
               },
               datePublished: '2025-03-24',
               dateModified: '2025-03-24',
-              image: 'https://seo.meathill.com/images/technical-seo.jpg',
+              image: `${process.env.NEXT_PUBLIC_SITE_URL}/images/technical-seo.jpg`,
               mainEntityOfPage: {
                 '@type': 'WebPage',
-                '@id': 'https://seo.meathill.com/seo-series/technical-seo',
+                '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/seo-series/technical-seo`,
               },
             }),
           }}
         />
       </body>
-      <GoogleAnalytics gaId="G-XYZ" />
+      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID!} />
     </html>
   );
 }
